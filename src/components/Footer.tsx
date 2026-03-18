@@ -56,7 +56,7 @@ export default function Footer() {
             <div className="mt-6 space-y-2">
               {[
                 { icon: Phone, text: "+234 813 668 0852", href: "tel:+2348136680852" },
-                { icon: Mail, text: "info@nedufal.com", href: "mailto:info@nedufal.com" },
+                { icon: Mail, text: "info@nedufal.com.ng", href: "mailto:info@nedufal.com.ng" },
                 { icon: MapPin, text: "22 Road B Close, Festac Town, Lagos", href: "https://maps.google.com/?q=22+Road+B+Close+Festac+Town+Lagos+Nigeria" },
               ].map(({ icon: Icon, text, href }) => (
                 <a key={text} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noreferrer" : undefined} className="flex items-center gap-2 text-sm hover:text-red-400 transition-colors">
